@@ -1,0 +1,99 @@
+.form {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	background-color: #a8a8a8;
+	padding: 20px 10px;
+	box-shadow: 15px 15px 0 0 black;
+}
+
+.container {
+	border: 4px double #58ffff;
+	position: relative;
+	padding: 50px 10px 30px;
+
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.formTitle {
+	font-size: 28px;
+	position: absolute;
+	width: fit-content;
+	padding: 0 10px;
+	background-color: #58ffff;
+	color: black;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.field {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.field:last-of-type {
+	margin: 0;
+}
+
+.label {
+	font-size: 28px;
+	margin-right: 20px;
+}
+.input {
+	width: auto;
+	flex-grow: 1;
+	height: 50px;
+}
+
+.inputContainer {
+	position: relative;
+	flex-grow: 1;
+}
+
+.inputValue {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	font-size: 28px;
+	background-color: #fff;
+	width: fit-content;
+}
+
+.inputContainer input {
+	width: 100%;
+}
+
+.button {
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.close {
+	background-color: #fff555;
+}
+
+.error {
+	border: 2px solid #ff0000;
+}
+
+.errorMessage {
+	position: absolute;
+	color: #ff0000;
+	top: calc(100% + 5px);
+	right: 0;
+	width: 100%;
+	text-align: right;
+	width: 165px;
+}

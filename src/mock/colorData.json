@@ -1,0 +1,6 @@
+[
+	{ "id": 1, "hex": "#002200", "rating": 3 },
+	{ "id": 2, "hex": "#22ff00", "rating": 2 },
+	{ "id": 3, "hex": "#ff00ff", "rating": 1 },
+	{ "id": 4, "hex": "#00ffff", "rating": 5 }
+]

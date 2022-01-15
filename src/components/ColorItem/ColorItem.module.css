@@ -1,0 +1,41 @@
+.item {
+	display: flex;
+	align-items: center;
+	margin: 40px 10px;
+	padding: 10px;
+	padding-right: 70px;
+	border: 4px double #58ffff;
+	position: relative;
+}
+
+.deleteButton {
+	background-color: red;
+	border: none;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	box-shadow: 5px 5px 0 0 black;
+	cursor: pointer;
+}
+
+.colorBox {
+	position: relative;
+	width: 50%;
+	height: 70px;
+	background-color: red;
+}
+
+.colorTitle {
+	top: 10px;
+	left: 10px;
+	font-size: 28px;
+	background-color: #58ffff;
+	padding: 0 10px;
+	position: absolute;
+	color: #0037a9;
+	margin-right: auto;
+}

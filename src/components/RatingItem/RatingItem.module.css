@@ -1,0 +1,11 @@
+.ratingButton {
+	width: 20px;
+	height: 20px;
+	background-color: gray;
+	border: none;
+	cursor: pointer;
+}
+
+.selected {
+	background-color: #fff555;
+}

@@ -1,0 +1,17 @@
+.colorRating {
+	margin: auto;
+}
+
+.ratingList {
+	display: flex;
+	width: 130px;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.ratingText {
+	text-align: center;
+	font-size: 20px;
+	color: #58ffff;
+}

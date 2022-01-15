@@ -1,0 +1,18 @@
+.main {
+	width: 800px;
+	padding: 20px 5px;
+	margin: 40px auto;
+	border: 4px double #58ffff;
+	position: relative;
+}
+
+.pageTitle {
+	position: absolute;
+	width: fit-content;
+	padding: 0 10px;
+	background-color: #58ffff;
+	color: #0037a9;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
